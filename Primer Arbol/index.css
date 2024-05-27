@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+
+    background-image: url('./images/fondo3.jpg');
+    background-repeat: repeat;
+    background-attachment: local;
+    background-size: cover;
+}
+
+
+
+input[type="text"] {
+    padding: 10px 20px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 98%;
+    box-sizing: border-box;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #a3dec9;
+}
+
+button {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #f5fff6;
+    color: #597382;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#contact-display {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ 
+}
+
+#contact-display div {
+    margin: 5px;
+    background-color: #f5fff6;
+    border: 1px solid #f5fff6;
+    padding: 10px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+}
+
+#center{
+    margin-left: 30%;
+    text-align: center;
+    color: #597382;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    border: 2px solid #e9e5dd ;
+    background-color: #e9e5dd;
+    padding: auto;
+}
